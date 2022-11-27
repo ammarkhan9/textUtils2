@@ -50,7 +50,7 @@ function App() {
       <Alert alert={alert}/>
       <div> 
       <Routes>
-        <Route exact path="/" element={<TextForm showAlert={showAlert} heading = 'Try TextUtils - word counter, word counter, character counter' mode={mode}/>} />
+        <Route exact path="/" element={<TextForm showAlert={showAlert} heading = 'Try TextUtils - word counter, character counter' mode={mode}/>} />
         <Route exact path="/about" element={<About mode={mode}/>} />
       </Routes>
       </div>
